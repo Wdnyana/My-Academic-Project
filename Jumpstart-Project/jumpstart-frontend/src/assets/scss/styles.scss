@@ -1,0 +1,73 @@
+// Import Bootstrap's SCSS
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Custom Variables
+$primary: #8363f0;
+$secondary: #212741;
+$dark: #1c1d3a;
+$light: #ffffff;
+
+// Override Bootstrap Variables
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "dark": $dark,
+  "light": $light,
+);
+
+// Compile Bootstrap with Custom Variables
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+// Import typography
+@import "./typography";
+
+// Import Navbar Style
+@import "./navbar";
+
+// Import Home Page Style
+@import "./home";
+
+// Import Product Details Style
+@import "./productDetails";
+
+// Import cartModal Style
+@import "./cartModal";
+
+// Import wishlist Style
+@import "./wishlist";
+
+// Import same Style use
+@import "./styleContent";
+
+// Import Login Signup Style
+@import "./loginSignup";
+
+// Import global style
+// @import "./globalStyle";
+
+// font styles Body
+body {
+  background-color: $dark;
+  color: $light;
+  font-family: $font-family-sans-serif;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  scroll-behavior: smooth;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+// change background color bootstrap to my setup project color
+.bg-dark {
+  background-color: $dark !important;
+}
+
+.bg-secondary {
+  background-color: $secondary !important;
+}
+
+.bg-primary {
+  background-color: $primary !important;
+}

@@ -1,0 +1,21 @@
+.rounded-form {
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.rounded-create-acc {
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.border-red-500 {
+  --border-opacity: 1;
+  border-color: #f56565;
+  border-color: rgba(245, 101, 101, var(--border-opacity));
+}
+
+.bg-green-800 {
+  --bg-opacity: 1;
+  background-color: #276749;
+  background-color: rgba(39, 103, 73, var(--bg-opacity));
+}
