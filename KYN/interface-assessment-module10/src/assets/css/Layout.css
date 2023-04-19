@@ -1,0 +1,27 @@
+.layout {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.layout .navbar {
+    padding: 2rem 0;
+}
+
+.layout .content {
+    width: 100%;
+}
+
+.invalid input {
+    border: 1px solid #b40e0e;
+    background-color: #fddddd;
+}
+
+.invalid input:focus {
+    border-color: #ff8800;
+    background-color: #fbe8d2;
+}
+
+.invalid .error-text {
+    color: #b40e0e;
+}

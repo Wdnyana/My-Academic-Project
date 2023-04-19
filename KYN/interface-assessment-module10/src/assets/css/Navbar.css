@@ -1,0 +1,31 @@
+Navbar {
+    padding: 4rem 0 !important;
+}
+
+.nav-link.active {
+    color: #ffffff !important;
+    padding-bottom: 0.25rem !important;
+    border-bottom: 2px solid #ffffff !important;
+}
+
+.nav-account {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.nav-account img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-logout {
+    width: 100%;
+}
+
+@media (min-width: 577px) {
+    .dropdown-menu {
+        max-width: 300px;
+    }
+}

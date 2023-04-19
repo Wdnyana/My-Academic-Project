@@ -1,0 +1,69 @@
+/* style login registration */
+.form-auth {
+    border: none !important;
+}
+
+.row-content {
+    width: 100% !important;
+    height: 100% !important;
+    box-shadow: -1px 1px 60px -14px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 1px 60px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 60px -14px rgba(0,0,0,0.75);
+    border-radius: 25px;
+}
+
+.or-separator {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+    position: relative;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 1em;
+}
+
+.or-text {
+    position: absolute;
+    left: 43%;
+    top: 0;
+    background: #fff;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.form-input {
+    border-radius: 25px !important;
+}
+
+.btn-logreg {
+    border-radius: 25px !important;
+    padding: 0.7rem 0 !important;
+}
+
+.image-lg-reg {
+    height: 70vh;
+}
+
+.parent-img-regis {
+    height: 100% !important;
+}
+
+.image-lg-regis {
+    height: 100% !important;
+}
+
+.image-lg-regis .img-regis {
+    height: 100% !important;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.image-lg-reg .img-login {
+    height: 100% !important;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    object-fit: cover;
+
+}
+
+/* end of style login registration */
