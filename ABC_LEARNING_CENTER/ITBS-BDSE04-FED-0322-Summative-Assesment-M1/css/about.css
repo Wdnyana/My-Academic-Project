@@ -1,0 +1,66 @@
+/* style for css reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* style font A B C */
+span:nth-child(1) {
+  color: #00ff00;
+}
+
+span:nth-child(2) {
+  color: #ffff00;
+}
+
+span:nth-child(3) {
+  color: #ff00ff;
+}
+
+/* style for about page */
+.about-hero {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: linear-gradient(to top left, #a0effa 10%, #f0f8f8 80%);
+  height: 85vh;
+}
+.img-about {
+  display: block;
+  margin: 0 auto;
+}
+.about-hero p {
+  width: 40%;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  transform: translateY(-60%);
+  font-size: 1.3em;
+  color: #4d9faa;
+  z-index: 5;
+}
+#section-page {
+  text-align: center;
+  margin: -1.1em auto;
+}
+
+.section-main h2 {
+  font-size: 3.5em;
+  padding: 0.5em 0;
+  color: #4d9faa;
+}
+
+.section-main p {
+  margin: 0 auto;
+  padding-bottom: 3em;
+  font-size: 1.5em;
+  color: #4d9faa;
+  text-align: center;
+  width: 80%;
+}
+
+#section-page .border {
+  width: 100%;
+  border-bottom: 1px solid #a9a9a9;
+}

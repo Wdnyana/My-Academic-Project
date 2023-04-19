@@ -1,0 +1,105 @@
+/* style for css reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+
+/* style font A B C */
+span:nth-child(1) {
+  color: #00ff00;
+}
+
+span:nth-child(2) {
+  color: #ffff00;
+}
+
+span:nth-child(3) {
+  color: #ff00ff;
+}
+
+/* style registration */
+.form-content {
+  width: 50%;
+  margin: 9.5em auto 6em;
+  border-radius: 25px;
+  box-shadow: 1px 1px 21px 1px rgba(0, 0, 0, 0.51);
+}
+.form-content h1 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 2em;
+  color: #4d9faa;
+  padding: 1em 0 0.2em;
+}
+
+.container {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  /*   border: 1px solid red; */
+}
+
+label {
+  text-transform: capitalize;
+  font-size: 1.2em;
+  padding: 0.9em 1.1em 0.3em;
+  color: #4d9faa;
+}
+input {
+  border: 1px solid #ddd;
+  padding: 0.7em 1.5em;
+  border-radius: 25px;
+  outline: none;
+  font-size: 0.9em;
+  background-color: #ddd;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
+}
+a .btn-login-admin:hover {
+  color: #df5454;
+}
+.btn-registration {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-login-admin {
+  width: 45%;
+  display: block;
+  margin: 1em auto;
+  padding: 0.6em;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-size: 1em;
+  font-weight: 500;
+}
+.regis {
+  background-color: #1dce61;
+  color: #fff;
+}
+.regis:hover {
+  background-color: transparent;
+  border: 1px solid #1dce61;
+  color: #1dce61;
+  transition: 0.3s ease-in-out;
+}
+.cancel {
+  background-color: #df5454;
+  color: #fff;
+}
+.cancel:hover {
+  background-color: transparent;
+  border: 1px solid #df5454;
+  color: #df5454;
+  transition: 0.3s ease-in-out;
+}

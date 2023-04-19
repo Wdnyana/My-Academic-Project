@@ -1,0 +1,17 @@
+.main-layout {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.head {
+  min-height: 76.4px;
+}
+
+@media (max-width: 768px) {
+  .head {
+    min-height: 65px;
+  }
+}

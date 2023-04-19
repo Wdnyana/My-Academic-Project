@@ -1,0 +1,18 @@
+// variabel use in style color scss
+$s-green: #a3a380;
+$s-yellow: #d6ce93;
+$light-s-green: #eef0ce;
+$c-dark: #333333;
+$c-white: #fff;
+
+// theme color for call in component jsx like bootstrap. (bg-shade-green)
+$theme-colors: (
+  "shade-green": $s-green,
+  "shade-yellow": $s-yellow,
+  "light-shade-green": $light-s-green,
+  "darken": $c-dark,
+  "whiten": $c-white,
+);
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";

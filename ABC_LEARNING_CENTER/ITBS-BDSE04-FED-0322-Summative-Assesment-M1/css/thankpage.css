@@ -1,0 +1,77 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+/* css style thank page */
+.thank-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 7em auto 0;
+}
+
+.thank-page {
+  width: 30em;
+  height: 24em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 1px 1px 21px 1px rgba(0, 0, 0, 0.51);
+}
+
+.img-icon {
+  width: 5em;
+  margin-top: -1em;
+}
+
+.text-big,
+.text-litle {
+  padding: 0.3em 1.5em;
+  text-transform: capitalize;
+  color: #4d9faa;
+}
+
+.text-big {
+  margin: 0 0 1em;
+  font-size: 2.2em;
+  border-bottom: 1px solid black;
+}
+
+.text-litle {
+  font-size: 1.2em;
+}
+
+a {
+  text-decoration: none;
+  width: 100%;
+}
+
+.btn-login-admin {
+  width: 45%;
+  display: block;
+  margin: 1em auto 0;
+  padding: 0.6em;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: #4d9faa;
+  color: #fff;
+}
+
+.btn-login-admin:hover {
+  background-color: transparent;
+  border: 1px solid #4d9faa;
+  color: #4d9faa;
+  transition: 0.3s ease-in-out;
+}

@@ -1,0 +1,69 @@
+/* style for css reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*style for footer page */
+#footer-page {
+    width: 100%;
+    background-color: #bffafb;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1.5em 0;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.footer-item h2 {
+    text-align: center;
+    padding-top: 42%;
+    font-size: 2.5em;
+    color: #4d9faa;
+}
+
+.footer-item h5 {
+    text-align: center;
+    font-size: 1.7em;
+    color: #4d9faa;
+    text-transform: capitalize;
+    padding: 0.7em 0;
+}
+
+.icon-text {
+    text-decoration: none;
+    text-align: left;
+    color: #4d9faa;
+    font-size: 1.2em;
+    margin-left: 2em;
+    padding: 0 0 1em;
+    display: flex;
+    align-items: center;
+}
+
+.icon-text:hover {
+    color: #125a50;
+    transition: 0.3s ease;
+}
+
+.fab,
+.fas {
+    font-size: 1.6em;
+}
+
+.text-bottom {
+    text-align: center;
+    color: #4d9faa;
+    font-size: 1.2em;
+    padding: 1.5em 0;
+    background-color: #a4f2f3;
+}

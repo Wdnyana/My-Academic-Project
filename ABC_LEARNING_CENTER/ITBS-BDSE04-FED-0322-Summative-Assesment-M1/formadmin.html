@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="css/formadmin.css" type="text/css" />
+    <link rel="stylesheet" href="css/editregistration.css" type="text/css" />
+    <link rel="stylesheet" href="css/registration.css" type="text/css" />
+    <title>Welcome Admin</title>
+    <script
+      src="https://kit.fontawesome.com/e9f3ccdafa.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- form  -->
+    <form
+      action=""
+      role="form"
+      id="showHide"
+      class="form-create form-edit form-animation"
+    >
+      <div>
+        <div class="form-content">
+          <h1>
+            C R U D Form Admin
+            <span onclick="closeXbtn()" class="closeX">&times;</span>
+          </h1>
+          <div class="container">
+            <label for="fname">first name</label>
+            <input
+              type="text"
+              placeholder="Enter First Name"
+              name="fname"
+              id="fname"
+              required
+            />
+            <label for="lname">last name</label>
+            <input
+              type="text"
+              placeholder="Enter Last Name"
+              name="lname"
+              id="lname"
+              required
+            />
+
+            <label for="Email">email</label>
+            <input
+              type="email"
+              placeholder="Enter Email"
+              name="email"
+              id="email"
+              required
+            />
+
+            <label for="Password">Password</label>
+            <input
+              type="password"
+              placeholder="Enter password"
+              name="password"
+              id="password"
+              required
+            />
+
+            <label for="crname">course</label>
+            <input
+              type="text"
+              placeholder="Enter Course"
+              name="crname"
+              id="crname"
+              required
+            />
+            <label for="tname">telephone number</label>
+            <input
+              type="number"
+              placeholder="Enter Phone Number"
+              name="tname"
+              id="tname"
+              required
+            />
+
+            <div class="btn-registration">
+              <button type="submit" class="btn-login-admin regis">
+                Submit
+              </button>
+              <button
+                type="button"
+                class="btn-login-admin cancel"
+                onclick="btnClose()"
+              >
+                cancel
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    <!-- end form  -->
+
+    <div class="form-class">
+      <h2>form data learning ABC</h2>
+      <div class="btn-new-user">
+        <button type="submit" id="mybtn" class="btn" onclick="createUser()">
+          Create New User
+        </button>
+      </div>
+      <table class="table-class" id="tableId">
+        <thead>
+          <tr>
+            <th>first name</th>
+            <th>last name</th>
+            <th>email</th>
+            <th>password</th>
+            <th>course</th>
+            <th>telephone number</th>
+            <th>edit</th>
+            <th>delete</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- result -->
+        </tbody>
+      </table>
+    </div>
+
+    <!-- script for load local storage -->
+    <script src="js/storage.js" type="text/javascript"></script>
+    <!-- my jquery link -->
+    <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+  </body>
+</html>

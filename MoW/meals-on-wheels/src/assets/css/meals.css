@@ -1,0 +1,26 @@
+banner {
+  background-color: black;
+}
+
+banner img {
+  opacity: 0.4 !important;
+}
+
+banner-text {
+  width: 40vw;
+}
+
+.bestmeals {
+  background-color: #d6ce93;
+}
+
+.bestmeals .card,
+.menus .card {
+  width: 15rem;
+}
+
+.bestmeals .card img,
+.menus .card img {
+  height: 15rem;
+  object-fit: cover;
+}

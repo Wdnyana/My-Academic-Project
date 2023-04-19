@@ -1,0 +1,95 @@
+/* style for css reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* style css for navbar */
+#navbar-page {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-content {
+    width: 85%;
+    margin: 0 auto;
+    padding: 1.5em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-page h1 {
+    font-size: 2.5em;
+    text-transform: capitalize;
+    color: #4d9faa;
+}
+
+#navbar-menu {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-item {
+    list-style: none;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #4d9faa;
+}
+
+.menu-item a:hover {
+    color: #125a50;
+    transition: 0.5s ease;
+}
+
+.menu-item .dropdown-menu {
+    position: absolute;
+    top: 4em;
+    list-style: none;
+    background-color: #bffafb;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    line-height: 2.5em;
+    margin-left: -2em;
+    display: none;
+}
+
+.menu-item .dropdown-menu .dropdown-item {
+    position: relative;
+    text-align: center;
+    padding: 0.5em 1.5em;
+}
+
+.sub .sub-menu {
+    position: absolute;
+    top: 0.2em;
+    left: 103%;
+    list-style: none;
+    background-color: #bffafb;
+    border-radius: 10px;
+    display: none;
+}
+
+.sub .sub-menu .sub-item {
+    position: relative;
+    text-align: center;
+    padding: 0.5em 1.5em;
+    width: 11em;
+}
+
+.sub .sub-menu .item1 {
+    position: relative;
+    text-align: center;
+    padding: 0.5em 1.5em;
+    width: 15em;
+}
